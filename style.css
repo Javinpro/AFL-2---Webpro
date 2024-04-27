@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+  
+  *{
+      font-family: "Oswald";
+      color: black;
+      /* background-color: #ffffff; */
+      font-size: 18px;
+  }
+
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .slider-img {
+    display: inline-block;
+    animation: 40s slide infinite linear ;
+  }
+
+  .teks-dalam {
+    position: absolute;
+    bottom: 25px; /* Ubah nilai top ke bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Mengubah transform untuk perpindahan horizontal saja */
+    background-color: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 1;
+  }
+
+  .container-slider{
+    overflow: hidden;
+    padding: 30px 0;
+    white-space: nowrap;
+    position: relative;
+  }
+
+  .slider-img img{
+    height: 275px;
+    filter: brightness(90%);
+  }
+
+  .pic-1 img{
+    width: 50%;
+    margin: 0 5px; /* Menambahkan margin pada kiri dan kanan gambar */
+  }
+
+  .pic-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+
+  .custom-navbar {
+    padding: 2px;
+    font-size: 18px;
+    height: 60px;
+    background-color: #ffffff;
+  }
+
+  footer{
+    border-color: black;
+  }
+  
+
+  .underline{
+    margin-top: 30px; /* Menambahkan jarak atas */
+    border-bottom: 1px solid black; /* Membuat garis di bawah */
+  }
+
+  .mx-n1{
+    margin-top: -20px;
+    margin-bottom: -10px;
+  }
+
+  .inner-kolom {
+    background-color: black; /* Warna latar belakang untuk contoh */
+    color: white;
+  }
+
+  .inner-kolom-2 {
+    background-color: red; /* Warna latar belakang untuk contoh */
+    color: white;
+  }
+
+  /* Mengubah warna teks saat hover */
+  .navbar-nav .nav-link:hover {
+    background-color: black;
+    color: white; /* Ubah warna teks menjadi merah saat hover */
+  }
+
+  /* Membuat animasi untuk panah dropdown saat hover */
+  .navbar-nav .dropdown-toggle::after {
+    transition: transform 0.2s ease; /* Animasi transisi */
+  }
+
+  /* CSS untuk menampilkan dropdown saat dihover */
+  .navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-menu li:hover > a {
+    background-color: black; /* Ganti dengan warna yang diinginkan */
+    color: white; /* Ganti dengan warna yang diinginkan */
+    cursor: pointer; /* Ubah cursor menjadi pointer saat dihover */
+  }
+
+  .linked-car {
+    text-decoration: none;
+  }  
+
+  .card-img-top {
+    transition: filter 0.1s ease-in;
+  }
+
+  .card:hover .card-img-top {
+    filter: brightness(122%); /* Meningkatkan kontras gambar saat dihover */
+  }
+
+  .container-detail{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ask-mobil {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    column-gap: 10px;
+    flex-basis: auto;
+    flex-direction: row;
+    height: 150px;
+    padding-bottom: 0px;
+  }
+
+  .ask-text, .ask-japan-text{
+    padding-top: 35px;
+    padding-bottom: 0px;
+  }
+
+  .container-detail-2{
+    display: flex;
+    justify-content: space-between;
+    height: 140px;
+  }
+
+  .part-text-jap{
+    font-size: 15px;
+  }
+
+  .teks-3 h4{
+    font-size: 17px;
+  }
+
+  .teks-3-luar h4{
+    font-size: 17px;
+  }
+
+  .container-detail-3{
+    height: 148px;
+  }
+
+  .container-detail-4{
+    height: 120px;
+    margin-bottom: 350px;
+  }
+
+  .text-jap-judul-1{
+    font-size: 17px;
+  }
+
+  .teks-3-luar-bawah li{
+    font-size: 17px;
+  }
+
+  .separator-1 {
+    border-top: 1px solid black; /* Mengatur garis atas */
+    height: 45px;
+  }
+  
+  /* Opsi tambahan untuk memberikan jarak di atas dan bawah garis */
+  .separator-1 span {
+    display: block; /* Membuat elemen span menjadi blok */
+    margin-top: 10px; /* Memberikan jarak di atas garis */
+    margin-bottom: 10px; /* Memberikan jarak di bawah garis */
+  }
+
+  .bagian-dekripsi{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .customer-service {
+    text-align: center;
+    margin-top: 68px;
+  }
+
+  .teks-cust h4{
+    font-size: 19px;
+  }
+
+  .teks-cust-jap h4{
+    font-size: 15px;
+  }
+
+  .teks-ket-tambahan h4{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .contact-us-car{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sisi-kiri-pertama h3{
+    font-size: 35px;
+  }
+
+  .sisi-kiri-kedua h5{
+    font-size: 18px;
+  }
+  
+  .sisi-kanan button{
+    color: white;
+    background-color: black;
+    border-radius: none;
+    padding: 5px;
+    width: 15%;
+    border: 0;
+    font-size: 28px;
+  }
+  
+  .sisi-kiri {
+    flex: 1; /* Membuat sisi-kiri memanfaatkan ruang yang tersedia */
+  }
+  
+  .sisi-tengah {
+    flex: 1; /* Membuat sisi-tengah memanfaatkan ruang yang tersedia */
+    text-align: center; /* Menengahkan teks secara horizontal */
+  }
+  
+  .sisi-kanan {
+    flex: 1; /* Membuat sisi-kanan memanfaatkan ruang yang tersedia */
+    text-align: right; /* Mengatur posisi tombol ke kanan */
+  }
+  
+
+
+
+
