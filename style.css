@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
   
 ::selection {
-  background-color: black; /* Ubah warna latar belakang yang dipilih */
-  color: white; /* Ubah warna teks yang dipilih */
+  background-color: #434342; /* Ubah warna latar belakang yang dipilih */
+  color: #fffefe; /* Ubah warna teks yang dipilih */
 }
 
   *{
